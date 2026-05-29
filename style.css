@@ -905,276 +905,590 @@ a {
 }
 
 
-@media screen and  (max-width: 480px) {
-
+@media screen and (max-width: 480px) {
+    .header-container {
+        padding: 10px 12px;
+    }
+    .logo {
+        font-size: 16px;
+    }
     .nav-links {
         display: none;
     }
-
-    .hero-content h1 {
-        font-size: 48px;
+    .auth-buttons {
+        gap: 8px;
     }
+    .btn-login {
+        font-size: 12px;
+    }
+    .btn-signup {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+    .hero-section {
+        min-height: auto;
+        padding: 50px 12px;
+    }
+    .hero-content h1 {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+    .hero-subtitle {
+        font-size: 14px;
+        padding: 0;
+        margin-bottom: 24px;
+    }
+    .btn-cta {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    .grow-section,
+    .build-section {
+        padding: 50px 12px;
+    }
+    .grow-container,
+    .build-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 24px;
+    }
+    .grow-heading h2,
+    .build-heading h2 {
+        font-size: 26px;
+    }
+    .grow-description p,
+    .build-description p {
+        font-size: 14px;
+    }
+    .btn-start {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    .cards-section {
+        padding: 30px 12px;
+    }
+    .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .feature-card {
+        height: 300px;
+        padding: 16px;
+    }
+    .card-header h3 {
+        font-size: 16px;
+    }
+    .card-footer {
+        padding: 12px;
+    }
+    .card-footer p {
+        font-size: 12px;
+    }
+    .clarity-section {
+        padding: 50px 12px;
+    }
+    .clarity-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    .card-text-info {
+        padding: 24px 16px;
+    }
+    .card-text-info h2 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .card-text-info p {
+        font-size: 13px;
+    }
+    .card-portrait {
+        min-height: 160px;
+    }
+    .figure-section p {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+    .figure-section h3 {
+        width: 100%;
+        max-width: 260px;
+        height: 180px;
+        margin-bottom: 12px;
+    }
+    .figure-section a {
+        font-size: 18px;
+    }
+    .time-section {
+        padding: 50px 12px;
+    }
+    .time-section .top-row {
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+    .time-section .title {
+        font-size: 26px;
+        max-width: 100%;
+    }
+    .time-section .description p {
+        font-size: 13px;
+    }
+    .time-section .cards {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .time-section .card {
+        min-width: 100%;
+        padding: 20px;
+    }
+    .amount {
+        font-size: 28px;
+    }
+    .currency {
+        font-size: 11px;
+        padding: 6px 10px;
+        margin-left: 8px;
+    }
+    .result-value {
+        font-size: 24px;
+    }
+    .bank-value {
+        font-size: 24px;
+    }
+    .disclaimer {
+        font-size: 10px;
+    }
+    .customers-section {
+        padding: 50px 12px;
+    }
+    .customers-section .top-row {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .customers-section .title {
+        font-size: 24px;
+    }
+    .customers-section .description {
+        max-width: 100%;
+        font-size: 13px;
+        text-align: center;
+    }
+    .testimonials {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .testimonial-card {
+        width: 100%;
+        max-width: 280px;
+        height: 320px;
+        margin: 0 !important;
+        border-radius: 20px;
+    }
+    .quote p {
+        font-size: 15px;
+    }
+    .play-btn {
+        width: 32px;
+        height: 32px;
+    }
+    .cta {
+        padding: 50px 12px 30px;
+    }
+    .cta-subtitle {
+        font-size: 18px;
+    }
+    .cta-link {
+        font-size: 22px;
+    }
+    .arrow {
+        font-size: 20px;
+    }
+    .footer-main {
+        flex-direction: column;
+        padding: 30px 12px;
+        gap: 30px;
+    }
+    .footer-links {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .link-column h4 {
+        font-size: 12px;
+    }
+    .link-column a {
+        font-size: 11px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 12px;
+        padding: 16px 12px;
+    }
+    .socials {
+        justify-content: center;
+        gap: 12px;
+    }
+    .address {
+        font-size: 11px;
+    }
+    .sec-badge span {
+        font-size: 10px;
+    }
+    .footer-legal {
+        padding: 24px 12px;
+    }
+    .footer-legal p {
+        font-size: 9px;
+    }
+}
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .header-container {
+        padding: 12px 16px;
+    }
+    .logo {
+        font-size: 18px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .auth-buttons {
+        gap: 12px;
+    }
+    .btn-login {
+        font-size: 14px;
+    }
+    .btn-signup {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+    .hero-section {
+        min-height: auto;
+        padding: 60px 16px;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .hero-subtitle {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .btn-cta {
+        padding: 14px 28px;
+        font-size: 15px;
+    }
+    .grow-section,
+    .build-section {
+        padding: 60px 16px;
+    }
     .grow-container,
     .build-container {
         flex-direction: column;
         text-align: center;
         gap: 30px;
     }
-
     .grow-heading h2,
     .build-heading h2 {
-        font-size: 48px;
+        font-size: 32px;
     }
-
+    .grow-description p,
+    .build-description p {
+        font-size: 15px;
+    }
+    .btn-start {
+        padding: 14px 28px;
+        font-size: 15px;
+    }
+    .cards-section {
+        padding: 40px 16px;
+    }
     .cards-grid {
         grid-template-columns: 1fr;
-        max-width: 500px;
+        max-width: 450px;
         margin: 0 auto;
+        gap: 20px;
     }
-
+    .feature-card {
+        height: 340px;
+        padding: 20px;
+    }
+    .card-header h3 {
+        font-size: 18px;
+    }
+    .card-footer {
+        padding: 14px;
+    }
+    .card-footer p {
+        font-size: 13px;
+    }
+    .clarity-section {
+        padding: 60px 16px;
+    }
     .clarity-grid {
         grid-template-columns: 1fr;
+        gap: 20px;
     }
-
+    .card-text-info {
+        padding: 30px 20px;
+    }
+    .card-text-info h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .card-text-info p {
+        font-size: 14px;
+    }
+    .card-portrait {
+        min-height: 200px;
+    }
     .figure-section p {
-        font-size: 42px;
+        font-size: 28px;
+        padding-bottom: 40px;
     }
-
     .figure-section h3 {
         width: 100%;
-        max-width: 350px;
-        height: 250px;
+        max-width: 300px;
+        height: 200px;
+        margin-bottom: 16px;
     }
-
+    .figure-section a {
+        font-size: 20px;
+    }
+    .time-section {
+        padding: 60px 16px;
+    }
     .time-section .top-row {
         flex-direction: column;
         gap: 30px;
+        margin-bottom: 50px;
     }
-
     .time-section .title {
-        font-size: 48px;
+        font-size: 32px;
         max-width: 100%;
     }
-
+    .time-section .description p {
+        font-size: 14px;
+    }
     .time-section .cards {
         flex-direction: column;
+        gap: 16px;
     }
-
     .time-section .card {
         min-width: 100%;
     }
-
+    .amount {
+        font-size: 32px;
+    }
+    .currency {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    .result-value {
+        font-size: 28px;
+    }
+    .bank-value {
+        font-size: 28px;
+    }
+    .disclaimer {
+        font-size: 11px;
+    }
+    .customers-section {
+        padding: 60px 16px;
+    }
     .customers-section .top-row {
         flex-direction: column;
         gap: 20px;
         text-align: center;
+        margin-bottom: 60px;
     }
-
     .customers-section .title {
-        font-size: 42px;
+        font-size: 28px;
     }
-
     .customers-section .description {
         max-width: 100%;
+        font-size: 14px;
         text-align: center;
     }
-
     .testimonials {
         flex-wrap: wrap;
         gap: 20px;
     }
-
     .testimonial-card {
-        margin: 0 auto;
+        width: 100%;
+        max-width: 300px;
+        height: 360px;
+        margin: 0 !important;
     }
-
+    .quote p {
+        font-size: 16px;
+    }
+    .cta {
+        padding: 60px 16px 40px;
+    }
+    .cta-subtitle {
+        font-size: 20px;
+    }
+    .cta-link {
+        font-size: 28px;
+    }
+    .arrow {
+        font-size: 24px;
+    }
     .footer-main {
         flex-direction: column;
+        padding: 40px 16px;
         gap: 40px;
     }
-
     .footer-links {
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 40px;
     }
-
-    .store-badges {
-        width: auto;
+    .link-column h4 {
+        font-size: 13px;
     }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-
-    .top-banner {
+    .link-column a {
         font-size: 12px;
-        padding: 8px 10px;
     }
-
-    .header-container {
-        padding: 12px 16px;
-    }
-
-    .btn-signup {
-        padding: 10px 18px;
-        font-size: 14px;
-    }
-
-    .hero-section {
-        min-height: auto;
-        padding: 60px 16px;
-    }
-
-    .hero-content h1 {
-        font-size: 36px;
-    }
-
-    .hero-subtitle {
-        font-size: 15px;
-        padding: 0;
-    }
-
-    .btn-cta {
-        padding: 14px 28px;
-        font-size: 15px;
-    }
-
-    .grow-section,
-    .build-section {
-        padding: 60px 16px;
-    }
-
-    .grow-heading h2,
-    .build-heading h2 {
-        font-size: 32px;
-    }
-
-    .btn-start {
-        padding: 14px 28px;
-        font-size: 15px;
-    }
-
-    .cards-section {
-        padding: 40px 16px;
-    }
-
-    .feature-card {
-        height: 360px;
-    }
-
-    .clarity-section {
-        padding: 60px 16px;
-    }
-
-    .card-text-info h2 {
-        font-size: 24px;
-    }
-
-    .figure-section p {
-        font-size: 28px;
-        padding-bottom: 40px;
-    }
-
-    .figure-section h3 {
-        width: 100%;
-        max-width: 300px;
-        height: 200px;
-    }
-
-    .figure-section a {
-        font-size: 20px;
-    }
-
-    .time-section {
-        padding: 60px 16px;
-    }
-
-    .time-section .title {
-        font-size: 32px;
-    }
-
-    .amount {
-        font-size: 32px;
-    }
-
-    .result-value {
-        font-size: 28px;
-    }
-
-    .customers-section {
-        padding: 60px 16px;
-    }
-
-    .customers-section .title {
-        font-size: 28px;
-    }
-
-    .testimonial-card {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    .cta {
-        padding: 60px 16px 40px;
-    }
-
-    .cta-subtitle {
-        font-size: 20px;
-    }
-
-    .cta-link {
-        font-size: 28px;
-    }
-
-    .footer-main {
-        padding: 40px 16px;
-    }
-
-    .footer-links {
-        flex-direction: column;
-        gap: 30px;
-    }
-
     .footer-bottom {
         flex-direction: column;
         text-align: center;
         gap: 16px;
+        padding: 20px 16px;
     }
-
+    .socials {
+        justify-content: center;
+    }
     .footer-legal {
         padding: 30px 16px;
+    }
+    .footer-legal p {
+        font-size: 10px;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1279px) {
-
-    .hero-content h1 {
-        font-size: 28px;
+    .header-container {
+        padding: 14px 24px;
     }
-
+    .hero-section {
+        padding: 50px 24px;
+    }
+    .hero-content h1 {
+        font-size: 48px;
+    }
+    .hero-subtitle {
+        font-size: 16px;
+        padding: 0 30px;
+    }
+    .grow-section,
+    .build-section {
+        padding: 70px 24px;
+    }
+    .grow-container,
+    .build-container {
+        gap: 30px;
+    }
     .grow-heading h2,
     .build-heading h2 {
-        font-size: 26px;
+        font-size: 44px;
     }
-
+    .grow-description p,
+    .build-description p {
+        font-size: 16px;
+    }
+    .cards-section {
+        padding: 50px 24px;
+    }
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
     .feature-card {
-        height: 320px;
+        height: 380px;
     }
-
-    .time-section .title {
-        font-size: 26px;
+    .clarity-section {
+        padding: 70px 24px;
     }
-
-    .amount {
+    .clarity-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .card-text-info h2 {
         font-size: 28px;
     }
-
-    .customers-section .title {
-        font-size: 24px;
+    .figure-section p {
+        font-size: 38px;
+        padding-bottom: 60px;
     }
-
-    .cta-link {
+    .figure-section h3 {
+        width: 100%;
+        max-width: 320px;
+        height: 240px;
+    }
+    .figure-section a {
         font-size: 22px;
+    }
+    .time-section {
+        padding: 70px 24px;
+    }
+    .time-section .top-row {
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .time-section .title {
+        font-size: 48px;
+    }
+    .time-section .cards {
+        flex-wrap: wrap;
+    }
+    .time-section .card {
+        min-width: 45%;
+        flex: 1 1 45%;
+    }
+    .amount {
+        font-size: 40px;
+    }
+    .result-value {
+        font-size: 34px;
+    }
+    .customers-section {
+        padding: 80px 24px;
+    }
+    .customers-section .top-row {
+        gap: 40px;
+        margin-bottom: 60px;
+    }
+    .customers-section .title {
+        font-size: 44px;
+    }
+    .customers-section .description {
+        max-width: 360px;
+    }
+    .testimonials {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .testimonial-card {
+        width: 260px;
+        height: 360px;
+    }
+    .card-1,
+    .card-2,
+    .card-3 {
+        margin-right: -30px;
+    }
+    .footer-main {
+        padding: 50px 24px;
+        gap: 40px;
+    }
+    .footer-links {
+        gap: 40px;
+    }
+    .footer-bottom {
+        padding: 24px;
     }
 }
